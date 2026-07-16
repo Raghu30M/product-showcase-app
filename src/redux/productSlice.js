@@ -30,7 +30,7 @@ export const fetchProductById = createAsyncThunk(
     async (id, { rejectWithValue }) => {
         try {
             const response = await axios.get(
-                `${import.meta.env.VITE_API_URL}{/${id}`
+                `${import.meta.env.VITE_API_URL}/${id}`
             );
 
             return response.data;
