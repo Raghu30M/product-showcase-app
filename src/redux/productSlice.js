@@ -13,7 +13,7 @@ export const fetchProducts = createAsyncThunk(
     async (_, { rejectWithValue }) => {
         try {
             const response = await axios.get(
-                "https://dummyjson.com/products?limit=100"
+                `${import.meta.env.VITE_API_URL}?limit=100`
             );
 
             return response.data.products;
@@ -30,7 +30,7 @@ export const fetchProductById = createAsyncThunk(
     async (id, { rejectWithValue }) => {
         try {
             const response = await axios.get(
-                `https://dummyjson.com/products/${id}`
+                `${import.meta.env.VITE_API_URL}{/${id}`
             );
 
             return response.data;

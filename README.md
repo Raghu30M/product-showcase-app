@@ -51,6 +51,14 @@ Install dependencies
 npm install
 ```
 
+## Environment Variables
+
+Create a `.env` file in the project root and add:
+
+```env
+VITE_API_URL=https://dummyjson.com/products
+```
+
 Run the application
 
 ```bash

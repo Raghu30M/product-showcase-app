@@ -3,7 +3,7 @@ import { lazy, Suspense } from "react";
 
 import MainLayout from "../layouts/MainLayout";
 import Loader from "../components/Loader";
-import ScrollToTop from "../components/scrollToTop";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Home = lazy(() => import("../pages/Home"));
 const Products = lazy(() => import("../pages/Products"));
