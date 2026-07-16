@@ -125,3 +125,13 @@ https://dummyjson.com/products
 ```
 
 ---
+
+## Future Enhancements
+
+- Backend integration with a real database.
+- User authentication and authorization.
+- Server-side search, filtering, and pagination for large datasets.
+- Product sorting (Price, Name, Category).
+- Wishlist and shopping cart functionality.
+- Product reviews and ratings.
+- Image gallery.
