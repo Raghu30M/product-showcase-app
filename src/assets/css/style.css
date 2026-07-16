@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f9fa;
+    color: #212529;
+}
+
+section {
+    padding: 80px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #111;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.btn-dark {
+    border-radius: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pagination .page-link {
+    color: #000;
+    border-radius: 0;
+}
+
+.pagination .page-link:hover {
+    color: #000;
+}
+
+.pagination .page-item.active .page-link {
+    background: #212529;
+    border-color: #212529;
+    color: #fff;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+}
